@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+
+	  <h1 class="welcome">Let's Play! Choose your weapon!</h1>
+	  <h1 class="ready">Ready to battle?</h1>
+		<div class="results">
+			<h1 class="playerWin">Yay! You win!</h1>
+			<h1 class="compWin">Sorry, computer wins.</h1>
+			<h1 class="tie">Looks like a tie!</h1>
+		</div>
+
+	  <div class="container">
+	  	<div class="player section">
+			  <a href="#"><img class="rock choice" id="pRock" src="./images/rock.png" alt="Rock"></a>
+			  <a href="#"><img class="paper choice" id="pPaper" src="./images/paper.png" alt="Paper"></a>
+			  <a href="#"><img class="scissors choice" id="pScissors" src="./images/scissors.jpeg" alt="Scissors"></a>
+			</div>
+
+			<div class="vs section">
+		 		 <img class="vs" src="./images/vs.png" alt="VS.">
+		 	</div>
+
+		  <div class="computer section">
+				<img class="rock" id="cRock" src="./images/rock.png" alt="Rock">
+			  <img class="paper" id="cPaper" src="./images/paper.png" alt="Paper">
+			  <img class="scissors" id="cScissors" src="./images/scissors.jpeg" alt="Scissors">
+			</div>
+
+		</div> <!--end container div -->
+		<br>
+		<div class="buttons">
+			<p><a class="button battle" href="#">BATTLE</a></p>
+			<p><a class="button restart chooseAgain" href="#">CHOOSE NEW WEAPON</a></p>
+			<p><a class="button restart playAgain" href="#">PLAY AGAIN</a></p>
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	  <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
